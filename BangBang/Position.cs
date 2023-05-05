@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BangBang.Creatures;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,12 @@ namespace BangBang
         {
             X = x;
             Y = y;
-        }   
+        }
+        public double DistanceBetween(Creature creature)
+        {
+            int dx = X - creature.Position.X;
+            int dy = Y - creature.Position.Y;
+            return Math.Sqrt(dx * dx + dy * dy);
+        }
     }
 }

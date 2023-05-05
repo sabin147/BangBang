@@ -1,0 +1,46 @@
+GameTraceSource Information: 0 : New logger created
+GameTraceSource Information: 1 : Default values for world are set. MaxX: 100, MaxY: 100
+GameTraceSource Information: 2 : Configuration done: 05/05/2023 18.51.17
+GameTraceSource Information: 3 : World is created
+GameTraceSource Information: 4 : Miya total attack is 200
+GameTraceSource Information: 5 : Balmond total defence is 80
+GameTraceSource Warning: 6 : Miya net  damage is 120
+GameTraceSource Warning: 7 : Miya hits Balmond for 120 damage!
+GameTraceSource Warning: 8 : Balmond has 110 health left
+GameTraceSource Information: 9 : Balmond is hurt and trying to heal itself...
+GameTraceSource Information: 10 : Balmond has healed itself and now has 120 health points.
+GameTraceSource Warning: 11 : Balmond has now 120 health left
+GameTraceSource Information: 12 : Balmond total attack is 170
+GameTraceSource Information: 13 : Miya total defence is 110
+GameTraceSource Warning: 14 : Balmond net  damage is 60
+GameTraceSource Warning: 15 : Balmond hits Miya for 60 damage!
+GameTraceSource Warning: 16 : Miya has 41 health left
+GameTraceSource Information: 17 : Miya is hurt and trying to heal itself...
+GameTraceSource Information: 18 : Miya has healed itself and now has 51 health points.
+GameTraceSource Warning: 19 : Miya has now 51 health left
+GameTraceSource Information: 20 : Miya total attack is 200
+GameTraceSource Information: 21 : Balmond total defence is 80
+GameTraceSource Warning: 22 : Miya net  damage is 120
+GameTraceSource Warning: 23 : Miya hits Balmond for 120 damage!
+GameTraceSource Warning: 24 : Balmond has 0 health left
+GameTraceSource Information: 25 : Balmond is hurt and trying to heal itself...
+GameTraceSource Information: 26 : Balmond has healed itself and now has 10 health points.
+GameTraceSource Warning: 27 : Balmond has now 10 health left
+GameTraceSource Information: 28 : Balmond total attack is 170
+GameTraceSource Information: 29 : Miya total defence is 110
+GameTraceSource Warning: 30 : Balmond net  damage is 60
+GameTraceSource Warning: 31 : Balmond hits Miya for 60 damage!
+GameTraceSource Warning: 32 : Miya has -9 health left
+GameTraceSource Information: 33 : Miya is hurt and trying to heal itself...
+GameTraceSource Information: 34 : Miya has healed itself and now has 1 health points.
+GameTraceSource Warning: 35 : Miya has now 1 health left
+GameTraceSource Information: 36 : Miya total attack is 200
+GameTraceSource Information: 37 : Balmond total defence is 80
+GameTraceSource Warning: 38 : Miya net  damage is 120
+GameTraceSource Warning: 39 : Miya hits Balmond for 120 damage!
+GameTraceSource Warning: 40 : Balmond has -110 health left
+GameTraceSource Information: 41 : Balmond is hurt and trying to heal itself...
+GameTraceSource Information: 42 : Balmond has healed itself and now has -100 health points.
+GameTraceSource Information: 43 : Balmond exits from hurt state and enters DeadState
+GameTraceSource Information: 44 : Balmondis dead and removed from world
+GameTraceSource Warning: 45 : Balmond is in deadstate and cannot do anything and is removed from mlbbmap.

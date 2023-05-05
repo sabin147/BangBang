@@ -3,21 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BangBang.Logging;
 
-namespace BangBang
+
+namespace BangBang.WorldObjects
 {
     public class WorldObject
     {
-        public bool Lootable { get; set; }
+        
         public string Name { get; set; }
         public bool Removable { get; set; }
+        public bool Lootable { get; set; }
         public Position Position { get; set; }
 
-        public WorldObject (bool lootable, string name, bool removable, Position position)
+        public WorldObject( string name, Position position)
         {
-            Lootable = lootable;
             Name = name;
-            Removable = removable;
             Position = position;
         }
     }
