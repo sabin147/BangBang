@@ -29,6 +29,13 @@ namespace BangBang.Creatures
         public World World { get; set; }
         public ICreatureState State { get; set; } = new HurtState(_logger);
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Creature"/> class with the specified name, logger, health, and position.
+        /// </summary>
+        /// <param name="name">The name of the creature.</param>
+        /// <param name="logger">The logger to use.</param>
+        /// <param name="health">The starting health of the creature.</param>
+        /// <param name="position">The starting position of the creature in the world.</param>
         public Creature(string name, ILogger logger, int health, Position position)
         {
             Name = name;
@@ -39,11 +46,19 @@ namespace BangBang.Creatures
             Position = position;
         }
 
+        /// <summary>
+        /// Updates the state of the creature.
+        /// </summary>
+        /// <param name="State">The new state of the creature.</param>
         public void UpdateState(ICreatureState State)
         {
             State.HandleState(this);
         }
-
+        /// <summary>
+        /// Sets the default values for all creatures.
+        /// </summary>
+        /// <param name="defaultDamage">The default damage.</param>
+        /// <param name="defaultHeath">The default health.</param>
         public static void SetDefaultValues(int defaultDamage, int defaultHeath)
         {
             DefaultDamage = defaultDamage;
@@ -78,11 +93,19 @@ namespace BangBang.Creatures
         //        {
         //            Defences.Add(defenceItem);
         //        }
-                
+
         //        World.Objects.Remove(item);
         //    }
         //}
 
+        /// <summary>
+        /// The method calculates hit points based on the creature's attacks and the target's defenses.
+        /// If the creature has no weapon to attack with, it logs the message and returns.
+        /// Otherwise, it logs the total attack and defense of the creature and the target, calculates the net damage,
+        /// and decreases the target's health by the net damage. If the target's health drops to or below zero,
+        /// the method updates the target's state to DeadState.
+        /// </summary>
+        /// <param name="creature">The target creature to be hit</param>
         public void Hit(Creature creature)
         {
             // Calculate hit points based on the creature's attacks and the target's defenses

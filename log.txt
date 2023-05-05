@@ -1,6 +1,6 @@
 GameTraceSource Information: 0 : New logger created
 GameTraceSource Information: 1 : Default values for world are set. MaxX: 100, MaxY: 100
-GameTraceSource Information: 2 : Configuration done: 05/05/2023 18.51.17
+GameTraceSource Information: 2 : Configuration done: 05/05/2023 18.59.39
 GameTraceSource Information: 3 : World is created
 GameTraceSource Information: 4 : Miya total attack is 200
 GameTraceSource Information: 5 : Balmond total defence is 80
@@ -42,5 +42,5 @@ GameTraceSource Warning: 40 : Balmond has -110 health left
 GameTraceSource Information: 41 : Balmond is hurt and trying to heal itself...
 GameTraceSource Information: 42 : Balmond has healed itself and now has -100 health points.
 GameTraceSource Information: 43 : Balmond exits from hurt state and enters DeadState
-GameTraceSource Information: 44 : Balmondis dead and removed from world
-GameTraceSource Warning: 45 : Balmond is in deadstate and cannot do anything and is removed from mlbbmap.
+GameTraceSource Information: 44 : Balmond is dead and removed from world
+GameTraceSource Warning: 45 : Balmond is in deadstate and is removed from mlbbmap.
