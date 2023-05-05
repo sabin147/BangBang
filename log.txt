@@ -1,6 +1,6 @@
 GameTraceSource Information: 0 : New logger created
 GameTraceSource Information: 1 : Default values for world are set. MaxX: 100, MaxY: 100
-GameTraceSource Information: 2 : Configuration done: 05/05/2023 18.59.39
+GameTraceSource Information: 2 : Configuration done: 05/05/2023 19.21.05
 GameTraceSource Information: 3 : World is created
 GameTraceSource Information: 4 : Miya total attack is 200
 GameTraceSource Information: 5 : Balmond total defence is 80

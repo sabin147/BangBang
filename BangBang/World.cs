@@ -60,11 +60,7 @@ namespace BangBang
             DefaultMaxY = maxY;
             Logger.GetInstance().Log(TraceEventType.Information, $"Default values for world are set. MaxX: {maxX}, MaxY: {maxY}");
         }
-        /// <summary>
-        /// Removes a creature from the game world.
-        /// </summary>
-        /// <param name="creature">The creature to be removed from the game world.</param>
-        public void RemoveCreatureFromWorld(Creature creature)
+
         public void RemoveCreatureFromWorld(Creature creature)
         {
             World? world = _instance;
